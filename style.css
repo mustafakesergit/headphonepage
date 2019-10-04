@@ -1,0 +1,363 @@
+/*Font: Work sans
+Farbe: #2e2e2e / #867772 / rgb(234, 204, 194) / #ebccc2 / #fff / rgb(115, 115, 115) */
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+
+
+body {
+    margin: 0px;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #2e2e2e ;
+    width: 100vw;
+}
+h1, h2, h3, h4, h5, p{
+    margin: 0px;
+}
+
+.logo img{
+    margin-top: 50px;
+    width: 3.5%;
+    height: auto;
+    position: fixed;
+    top: 0px;
+    left: 15px;
+    margin-top: 10px;
+  
+}
+.navigationOben{
+    display: flex;
+    justify-content: flex-end;
+   
+    
+}
+.navigationOben{
+    position: fixed;
+    top: 20px;
+}
+.navigationOben a{
+  margin-right: 10px;
+    font-size: 12px;
+}
+.navigationOben>a:first-child{
+    margin-right: 70px;
+    margin-left: 650px;
+   
+}
+
+.navigationOben>a:nth-child(4){
+    margin-right: 40px;
+}
+
+.navigationOben>a:nth-child(5){
+     margin-right: 70px;
+}
+
+    /* unvisited link */
+a:link {
+    color: rgb(158, 154, 154);
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(77, 78, 77);
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(83, 80, 82);
+    text-decoration: underline;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(119, 119, 151);
+    text-decoration: none;
+  }
+
+  /* Section grosse Bild */
+
+  .grosseBild h1{
+      margin-top: 20vh;
+      color: rgb(234, 204, 194);
+      font-size: 2rem;
+      margin-left: 37vw;
+      margin-bottom: 15vh;
+  }
+  .grosseBild img{
+      width: 80%;
+      height: auto;
+      margin-left: 115px;
+      margin-right: auto;
+  }
+
+    /* Section zweite Bild */
+
+.zweiteBild img{
+    width: 30vw;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.zweiteBild{
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+ 
+}
+.textZurzweiteBild{
+    width: 30vw;
+    margin-left: 4%;
+}
+.textZurzweiteBild h2{
+    color: rgb(234, 204, 194);
+    margin-top: 50px;
+}
+    
+
+.textZurzweiteBild p{
+    color: rgb(115, 115, 115);
+}
+
+/* Navigation Links*/
+
+.navigationlinks{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    position: fixed;
+    right: 97%;
+    top: 50%;
+}
+.button {
+  background-color: rgba(220,160,140,0.01);
+    border: 1px solid gray;
+ 
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 10%;
+
+ 
+  }
+  .navigationlinks a:hover {
+    display: inline-block;
+    border: 1px solid rgb(77, 75, 75);  
+    border-radius: 50%;
+    padding: 6px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  /* Navigation Links Text*/
+
+  .navigationlinkstext{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    position: fixed;
+    right: 87%;
+    top: 51%;
+    font-size: 10px;
+    color: gray;
+}
+
+
+  /* Lounger Page*/
+
+
+.index2seite{ 
+    height: 100vh;
+    background-image:url(section-voyager.jpg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position-x: -200px;
+   
+}
+.voyager{
+    float: right;
+    background-color: #2e2e2e;
+    width: 45%;
+    height: 100vh;
+}
+
+.voyager h3{
+    color: rgb(234, 204, 194);
+    font-size: 40px;
+    margin-top: 150px;
+    margin-bottom: 40px;
+    margin-left: 33px;
+}
+.voyager p{
+    font-size: 0.8rem;
+    color: gray;
+    margin-left: 40px;
+    margin-right: 55px;
+    margin-bottom: 5px;
+}
+
+/*index 3 Seite*/
+
+.index3seite{ 
+    height: 100vh;
+    background-image:url(section-experience-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position-x: -200px;
+}
+
+/* video */
+
+video{
+    margin-left: 23vw;;
+    margin-right: auto;
+    margin-top: 10vh;
+    margin-bottom: 150px;
+}
+
+.text4{
+    background-color: #2e2e2e;
+    width: 10ovw;
+    height: 100vh;
+}
+.text4 h3{
+    color: rgb(234, 204, 194);
+    margin-left: 23.2vw;
+}
+.text4 h2{
+    color: rgb(234, 204, 194);
+    font-size: 38px;
+    margin-left: 23vw;
+}
+.button2{
+    display: flex;
+    width: 25%;
+    margin-left: 22.5vw;
+    margin-top: 20px;
+}
+.button2 p{
+    border: 1px solid gray;
+    padding: 10px;
+    margin-left: 10px;
+    color: grey;
+}
+.button2 + p{
+    margin-top:10px;
+    margin-left: 23.2vw;
+    margin-bottom: 60px;
+    color: grey;
+}
+
+.index4bild{
+    margin-top: 0px;
+    display: flex;
+    width: 58vw;
+    height: 60vh;
+    margin-left: 23.3vw;
+}
+#index4bild1{
+    width: 59%;
+    height: auto;
+}
+.index4bild h4{
+    color: rgb(234, 204, 194);
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-top: 60px;
+}
+.index4bild h3{
+    color: rgb(234, 204, 194);
+    margin-left: 30px;
+    font-size: 1.5rem;
+}
+
+.index4bild p{
+    color: grey;
+    margin-left: 30px;
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
+#startbild{
+    width: 30vw;
+    height: 50vh;
+}
+.starts{
+    display: flex;
+}
+.containerstart{
+
+    width: 34.21vw;
+    height: auto;
+    margin-left: 23.3vw;
+}
+.containerstart *{
+    margin-left: 40px;
+}
+
+.containerstart h3{
+    font-size: 26px;
+    margin-left: 40px;
+    color: rgb(234, 204, 194);
+    margin-bottom: 20px;
+}
+
+.containerstart h4{
+    margin-top: 55px;
+    color: rgb(234, 204, 194);
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.containerstart p{
+    margin-right: 30px;
+    color: grey;
+}
+
+.index5{
+    background-image: url(section-composition4.jpg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position-x: -190px;
+    height: 100vh;
+}
+
+.container5{
+    background-color: #2e2e2e;
+    width: 50%;
+    height: 100vh;
+    margin-left: 54vw;
+}
+
+#agrillabild{
+    width: 60%;
+    height: auto;
+    margin-top: 90px;
+    margin-left: 110px;
+}
+
+.index5 h3{
+    color: rgb(234, 204, 194);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.index5 p{
+    color: grey;
+    text-align: center;
+    margin: 10px;
+}
+.buy{
+    margin-left: 22.vw;
+    background-color: rgb(255, 255, 255); 
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+
+
+
